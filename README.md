@@ -19,17 +19,21 @@ Repo directory structure as following
 	    ├── ft1.txt  
 	    └── ft2.txt  
 
-### Implementation details
+
 
 To run the program, clone it and run `run.sh`.
-Current directory should be `../codingmonkey`.Then Use `bash run.sh` or `./run.sh` to run the script.
-For example,my current directory is` /Users/yi/codingmonkey`,then in the `Terminal`, I run `bash run.sh`.
+My shell script is :
 
-The output files are `ft1.txt` and `ft2.txt` in `tweet_output` directory.
-And name of input file in `tweet_input` would be `tweets.txt`.
+```
+python ./src/tweets_cleaned.py ./tweet_input/tweets.txt ./tweet_output/ft1.txt
+python ./src/average_degree.py ./tweet_input/tweets.txt ./tweet_output/ft2.txt
+```
+You can change the input file name in the shell script .
+The output files will be `ft1.txt` and `ft2.txt` in `tweet_output` directory.
 
 
-### Introduction 
+
+### Implementation details
 Thank you for giving me the opportunity to participate in this challenge.I had a lot of fun doing it. 
 I started thinking using Regular expression operations of python to clean the tweets .But later I found I can simply use Json
 module to make the code concise.
@@ -57,9 +61,6 @@ com as notas destes testes vou trabalhar para o mcdonalds (timestamp: Fri Oct 30
 
 4601 tweets contained  unicode.
 ```
-
-
-
 
 
 ##### Feature 2

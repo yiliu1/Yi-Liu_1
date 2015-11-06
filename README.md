@@ -1,2 +1,0 @@
-# codingmonkey
-competition

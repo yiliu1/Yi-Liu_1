@@ -20,7 +20,7 @@ Repo directory structure as following
 	    └── ft2.txt  
 
 To run the program ,clone it and run `run.sh`.
-Current directory should be `./codingmonkey`.Use `bash run.sh` or `./run.sh` to run the script. Read input from `tweet_input/tweets.txt` and write output to `tweet_output/ft1.txt`and `tweet_output/ft2.txt`.
+Current directory should be `../codingmonkey`.Use `bash run.sh` or `./run.sh` to run the script. Read input from `tweet_input/tweets.txt` and write output to `tweet_output/ft1.txt`and `tweet_output/ft2.txt`.
 In the `tweet_input`,there is an example file `tweets.txt`  that I put there.
 
 # Implementation details

@@ -5,6 +5,10 @@
 #Import  necessary libraries
 import re
 import json
+import sys
+
+input_file = sys.argv[1]
+output_file = sys.argv[2]
 
 # This is the function parsing a raw line in the textfile
 def parse(line):
@@ -39,9 +43,9 @@ def parse(line):
 
 #   output the cleaned tweets
 
-f=open("./tweet_input/tweets.txt","r")
+f=open(input_file,"r")
 
-ft1=open("./tweet_output/ft1.txt","w")
+ft1=open(output_file,"w")
 
 unicode_count=0                          #total tweets containing special unicode
  

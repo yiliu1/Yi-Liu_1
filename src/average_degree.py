@@ -7,7 +7,11 @@
 import re
 import json
 import datetime
-import itertools 
+import itertools
+import sys
+
+input_file = sys.argv[1]
+output_file = sys.argv[2]
 
 # This is the function parsing a raw line in the textfile
 def parse(line):
@@ -146,8 +150,8 @@ def timewindow(hashtag_stack,h,t):
 
 # output the edges graph
 
-f=open("./tweet_input/tweets.txt","r")
-ft2=open("./tweet_output/ft2.txt","w")
+f=open(input_file,"r")
+ft2=open(output_file,"w")
 hashtag_stack=list()
 degreelist=list()
 t=60

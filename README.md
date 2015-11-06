@@ -101,5 +101,5 @@ feature 2 , processing...
 feature 2  finished
 ```
 
-#### Thank you for reviewing 
+ Thank you for reviewing my code and hope you enjoyed it.I look forward to hearing back!
 

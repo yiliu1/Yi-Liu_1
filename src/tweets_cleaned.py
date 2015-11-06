@@ -56,8 +56,7 @@ for line in f:                           # read line by line as if new tweets co
         print text,  "(timestamp: %s )" %timestamp ,count
         ft1.write("%s (timestamp: %s)\n" %(text ,timestamp))
         
-        unicode_count=unicode_count+newline[2]
-        
+        unicode_count=unicode_count+count
     else:
         pass
     

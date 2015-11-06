@@ -19,6 +19,8 @@ Repo directory structure as following
 	    ├── ft1.txt  
 	    └── ft2.txt  
 
+### Implementation details
+
 To run the program, clone it and run `run.sh`.
 Current directory should be `../codingmonkey`.Then Use `bash run.sh` or `./run.sh` to run the script.
 For example,my current directory is` /Users/yi/codingmonkey`,then in the `Terminal`, I run `bash run.sh`.
@@ -26,7 +28,16 @@ For example,my current directory is` /Users/yi/codingmonkey`,then in the `Termin
 The output files are `ft1.txt` and `ft2.txt` in `tweet_output` directory.
 And name of input file in `tweet_input` would be `tweets.txt`.
 
-# Implementation details
+
+### Introduction 
+Thank you for giving me the opportunity to participate in this challenge.I had a lot of fun doing it. 
+I started thinking using Regular expression operations of python to clean the tweets .But later I found I can simply use Json
+module to make the code concise.
+For feature 2, we need to calculate the average degree of a vertex in a Twitter hashtag graph in the timewindow 60s.
+My idea is that if we collect all the nodes and directed edges in the hashtag graph inside the timewindow,then 
+average degree is 
+`num(directed edges)/num(nodes)`. So I stacked all hashtags line by line and filtered out the subset inside the 
+timewindow at current time.Thus, I get average degree when a new tweet comes.
 
 ##### Feature 1
 
@@ -68,7 +79,7 @@ Final Results example :
 3.71
 ```
 
-# Note:
+## Note:
 When running the program,I show the entire process .
 For example you can see lines like:
 
@@ -90,5 +101,5 @@ feature 2 , processing...
 feature 2  finished
 ```
 
-### Thank you for reviewing 
+#### Thank you for reviewing 
 

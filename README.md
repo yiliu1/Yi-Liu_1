@@ -13,15 +13,16 @@ Repo directory structure as following
 	├── src  
 	│   ├── average_degree.py  
 	│   └── tweets_cleaned.py  
-	├── tweet_input  
+	├── tweet_input
 	│   └── tweets.txt  
 	└── tweet_output  
 	    ├── ft1.txt  
 	    └── ft2.txt  
 
 To run the program ,clone it and run `run.sh`.
-Current directory should be `../codingmonkey`.Use `bash run.sh` or `./run.sh` to run the script. Read input from `tweet_input/tweets.txt` and write output to `tweet_output/ft1.txt`and `tweet_output/ft2.txt`.
-In the `tweet_input`,there is an example file `tweets.txt`  that I put there.
+Current directory should be `../codingmonkey`.Use `bash run.sh` or `./run.sh` to run the script. 
+Read input from `tweet_input/tweets.txt` and write output to `tweet_output/ft1.txt`and `tweet_output/ft2.txt`.
+In the `tweet_input` directory,there is an example file `tweets.txt` .The name of input files must be `tweets.txt`.
 
 # Implementation details
 
@@ -62,7 +63,7 @@ Final Results example :
 ```
 
 # Note:
-when running the `run.sh`,I print out the whole process .
+when running the `run.sh`,I show the entire process .
 
 ### Thank you for reviewing 
 

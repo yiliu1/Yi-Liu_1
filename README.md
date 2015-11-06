@@ -1,9 +1,9 @@
 
 # Insightdata code challenge 
 
-For this coding challenge ,I developed it in python 2.7 on my macbook pro .
-I wtrie all the codes in python and tested it on my macbook.I hope you enjoy reading my code as much as I enjoyed writing it.
-If needed,you can reach me yiliu1.ubc@gmail.com
+For this coding challenge, I developed it in python 2.7 on my macbook pro.
+I wtrie all the codes in python and tested it on my macbook. I hope you enjoy reading my code as much as I enjoyed writing it.
+If needed, you can reach me at yiliu1.ubc@gmail.com.
 
 ## Repo directory structure
 Repo directory structure as following 
@@ -19,9 +19,9 @@ Repo directory structure as following
 	    ├── ft1.txt  
 	    └── ft2.txt  
 
-To run the program ,clone it and run `run.sh`.
+To run the program, clone it and run `run.sh`.
 Current directory should be `../codingmonkey`.Then Use `bash run.sh` or `./run.sh` to run the script.
-For example ,my current directory is` /Users/yi/codingmonkey`,then in the `Terminal` ,I run `bash run.sh`.
+For example ,my current directory is` /Users/yi/codingmonkey`,then in the `Terminal`, I run `bash run.sh`.
 
 The output files are `ft1.txt` and `ft2.txt` in `tweet_output` directory.
 And name of input file in `tweet_input` would be `tweets.txt`
@@ -32,7 +32,7 @@ And name of input file in `tweet_input` would be `tweets.txt`
 
 Clean and extract the text from the raw JSON tweets that come from the Twitter Streaming API, and track the number of tweets that contain unicode.
 
-After running the `run.sh`script , cleaned tweets will be in `tweet_output/ft1.txt`.
+After running the `run.sh`script, cleaned tweets will be in `tweet_output/ft1.txt`.
 Final results example :
 
 ```

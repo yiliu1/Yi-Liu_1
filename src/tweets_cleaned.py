@@ -30,6 +30,8 @@ def parse(line):
             tweets=re.sub('\s',' ',tweets)   #replace \t\n to single whitespace  
         else:
             count=0
+            tweets=tweets.encode('ascii','ignore')
+            tweets=re.sub('\s',' ',tweets)   #replace \t\n to single whitespace
         
         return (timestamp,tweets,count)
     

@@ -31,6 +31,15 @@ python ./src/average_degree.py ./tweet_input/tweets.txt ./tweet_output/ft2.txt
 You can change the input file name in the shell script .
 The output files will be `ft1.txt` and `ft2.txt` in `tweet_output` directory.
 
+it uses the following libraries:
+
+* json
+* re
+* sys
+* datetime
+* itertools
+
+
 
 
 ### Implementation details

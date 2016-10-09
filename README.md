@@ -1,5 +1,5 @@
 
-# Insightdata code challenge 
+#
 
 For this coding challenge, I developed it in python 2.7 on my macbook pro.
 I wrote all the codes in python and tested it on my macbook. I hope you enjoy reading my code as much as I enjoyed writing it.
